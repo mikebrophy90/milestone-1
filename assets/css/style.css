@@ -12,17 +12,120 @@ body{
 #151e31; dk blue
 #0d0f13; black
 #93969b; grey
+*/
+
+nav{
+    background-color: #151e31;
+}
+
+.logo, .nav-links li a{
+    color: #fafafa;
+}
+
+.nav-links{
+    background: #0d0f13;
+}
+
+.nav-links li a:hover{
+    color: #576fa3;
+    text-decoration: none;
+}
+
+.nav-links li a.active{
+    color: #576fa3;
+}
+
 
 /*---------------------------------------------------reusable*/
 
+.uppercase{
+    text-transform: uppercase;
+}
 
 /*---------------------------------------------------buttons*/
 
 
 /*---------------------------------------------------header*/
 
+.mobile-hero{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+.desktop-hero{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    display: none;
+}
+
 /*---------------------navbar*/
 
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: "Jost", sans-serif;
+    height: 100px;  
+}
+
+.logo{
+    margin-left: 25px;
+    padding: 15px 0;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.logo-part-1{
+    display: block;
+    position: absolute;
+    left: 38px;
+    font-family: "mrs saint delafield", sans-serif;
+    font-size: 32px; 
+}
+
+.logo-part-2{
+    display:block;
+    position: absolute;
+    top: 45px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px #151e31;
+}
+
+.nav-links{
+    display: block;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    height: 100vh;
+    right:0;
+    padding: 0;
+}
+
+.nav-links li{
+
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    margin-top:50px; 
+    
+}
+
+ li a{
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    
+}
 
 /*---------------------------------------------------about me*/
 
@@ -41,6 +144,13 @@ body{
 /*--------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 1025px){
+
+.mobile-hero{
+    display: none;    
+}
+.desktop-hero{
+    display: block;
+}
 
 }
 
