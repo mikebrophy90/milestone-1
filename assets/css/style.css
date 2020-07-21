@@ -18,7 +18,7 @@ nav{
     background-color: #151e31;
 }
 
-.logo, .nav-links li a{
+.logo, label, .nav-links li a{
     color: #fafafa;
 }
 
@@ -42,8 +42,50 @@ nav{
     text-transform: uppercase;
 }
 
+
+
+
 /*---------------------------------------------------buttons*/
 
+/*------------burger toggle*/
+
+label #btn{
+    position: absolute;
+    top: 0;
+    right:50px;
+    font-size: 30px;
+    float: right;
+    line-height: 100px;
+    cursor: pointer;
+    display: block;
+}
+
+label #cancel{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 30px;
+    float: right;
+    line-height: 100px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-links{
+    right: 0;
+}
+
+#check:checked ~ label #btn{
+    display: none;
+}
+
+#check:checked ~ label #cancel{
+    display: block;
+}
 
 /*---------------------------------------------------header*/
 
@@ -105,8 +147,9 @@ nav{
     top: 100px;
     width: 100%;
     height: 100vh;
-    right:0;
+    right: -100%;
     padding: 0;
+    transition: all .5s;
 }
 
 .nav-links li{
