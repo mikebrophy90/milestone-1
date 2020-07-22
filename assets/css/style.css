@@ -32,6 +32,7 @@ nav{
 .nav-links li a:hover{
     color: #576fa3;
     text-decoration: none;
+    transition: all .5s ease-in-out;
 }
 
 .nav-links li a.active{
@@ -46,6 +47,14 @@ nav{
     color: #0d0f13;
 }
 
+.about-me-social-links .fab{
+    color: #0d0f13;
+}
+
+.about-me-social-links .fab:hover{
+    color: #576fa3;
+    transition: all .5 ease-in-out;
+}
 
 /*---------------------------------------------------reusable*/
 
@@ -193,7 +202,7 @@ nav{
 /*---------------------------------------------------about me*/
 
 .about-me{
-    width: 100%;
+    display: block;
     position: relative;
     text-align: center;
     align-items: center;
@@ -239,12 +248,16 @@ nav{
 .about-me-social-links{
     height: 50px;
     text-align: center;
+    
 }
 
 .about-me-social-links .fab{
-    font-size: 30px;
     line-height: 50px;
+    padding:0 20px;
+    font-size: 28px;
 }
+
+
 
 /*---------------------------------------------------image slider*/
 
@@ -271,39 +284,30 @@ nav{
 /*---------------------------------------------------responsive 600 about me*/
 
 .about-me{
-    width: 100%;
     position: relative;
     margin-top:50px;
     height: 250px;
 }
 
+.about-me-image{
+    width: 50%;
+}
+
 .about-me-text-box{
-    position: relative;
-    float:none;
-    width: 70%;
-    text-align: left;
-    margin: 0 auto;
-    padding-right: 10px;
-    line-height: 280px;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (min-width: 700px){ 
+
+.about-me-text-box{
+    width: 50%;
+    float: none;
 }
 
 .about-me-text p{
     font-size: 18px;
     line-height: 140%;
-}
-
-@media only screen and (min-width: 700px){ 
-
-.about-me-text-box{
-    width: 70%;
-    float: none;
-}
-
-.about-me-image{
-    margin: 0 auto;
-    height: auto;
-    width: 70%;
-    display: inline-block;
 }
 
 
@@ -339,12 +343,16 @@ label{
 /*---------------------------------------------------responsive 1025 about me*/
 
 .about-me-text-box{
-    margin-right: 50px; 
-    padding-right: 10px;
+    padding-top: 10px;
+    margin-right: 3%; 
     float: right;
-
-
+    width: 70%;
 }
+
+.about-me-text{
+    padding: 20px;
+}
+
 
 .about-me-text p{
     font-size: 20px;
