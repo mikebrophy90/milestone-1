@@ -35,11 +35,24 @@ nav{
     color: #576fa3;
 }
 
+.about-me-text{
+    color: #0d0f13;
+}
+
 
 /*---------------------------------------------------reusable*/
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.break{
+    width: 30%;
+    color: #151e31;
+    border: 2px solid #151e31;
+   margin-top:50px;
+   margin-bottom: 50px;
+
 }
 
 
@@ -97,7 +110,6 @@ label #cancel{
 .desktop-hero{
     position: relative;
     width: 100%;
-    margin-top: 100px;
     display: none;
 }
 
@@ -155,7 +167,7 @@ nav{
 .nav-links li{
 
     display: block;
-    line-height: 100px;
+    line-height: 80px;
     text-align: center;
     margin-top:50px; 
     
@@ -172,6 +184,41 @@ nav{
 
 /*---------------------------------------------------about me*/
 
+.about-me{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.about-me-image{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    box-shadow: 2px 2px 5px;
+    margin-bottom: 25px;
+}
+.about-me-text-box{
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.about-me-text{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    
+}
+
+.about-me-text h2{
+    margin-bottom: 10px;
+}
+
+.about-me-text p{
+    font-size: 18px;
+    line-height: 140%;
+}
 
 /*---------------------------------------------------image slider*/
 
@@ -188,6 +235,7 @@ nav{
 
 @media only screen and (min-width: 1025px){
 
+/*---------------------------------------------------responsive navbar*/
 .mobile-hero{
     display: none;    
 }
@@ -218,9 +266,37 @@ label{
     margin: 0;
     padding: 0;
     right: 0;
-   
+}
 
-   
+/*---------------------------------------------------responsive about me*/
+
+.about-me{
+    width: 100%;
+    position: relative;
+    margin-top:50px;
+    height: 250px;
+}
+
+.about-me-image{
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+
+.about-me-text-box{
+    position: relative;
+    float:right;
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    padding-right: 100px;
+    line-height: 280px;
+}
+
+.about-me-text p{
+    font-size: 20px;
+    line-height: 140%;
 }
 
 }
