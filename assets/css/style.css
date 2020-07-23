@@ -53,7 +53,11 @@ nav{
 
 .about-me-social-links .fab:hover{
     color: #576fa3;
-    transition: all .5 ease-in-out;
+    cursor: pointer;
+}
+
+.slider-text h4{
+    color: #0d0f13;
 }
 
 /*---------------------------------------------------reusable*/
@@ -187,6 +191,7 @@ nav{
     line-height: 80px;
     text-align: center;
     margin-top:50px; 
+   
     
 }
 
@@ -205,7 +210,6 @@ nav{
     display: block;
     position: relative;
     text-align: center;
-    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -231,13 +235,14 @@ nav{
 }
 
 .about-me-text h2{
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-weight: 400;
 }
 
 .about-me-text p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 140%;
+    margin-bottom: 25px;
 }
 
 .follow-me{
@@ -255,11 +260,28 @@ nav{
     line-height: 50px;
     padding:0 20px;
     font-size: 28px;
+    transition: all .5s ease-in-out;
 }
 
 
 
 /*---------------------------------------------------image slider*/
+
+.slider-text{
+    text-align: center;
+    height: 100px;
+    padding: 0;
+
+}
+
+.slider-text h4{
+    font-family: "mrs saint delafield", sans-serif;
+    font-size: 28px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
 
 
 /*---------------------------------------------------customer reviews*/
@@ -281,33 +303,14 @@ nav{
     display: block;
 }
 
-/*---------------------------------------------------responsive 600 about me*/
-
-.about-me{
-    position: relative;
-    margin-top:50px;
-    height: 250px;
-}
-
 .about-me-image{
     width: 50%;
 }
 
-.about-me-text-box{
-    margin-bottom: 50px;
-}
+@media only screen and (min-width: 600px){
 
-
-@media only screen and (min-width: 700px){ 
-
-.about-me-text-box{
-    width: 50%;
-    float: none;
-}
-
-.about-me-text p{
-    font-size: 18px;
-    line-height: 140%;
+.about-me-image{
+    width: 40%;
 }
 
 
@@ -340,30 +343,23 @@ label{
     right: 0;
     line-height: 100px;
 }
-/*---------------------------------------------------responsive 1025 about me*/
-
-.about-me-text-box{
-    padding-top: 10px;
-    margin-right: 3%; 
-    float: right;
-    width: 70%;
-}
-
-.about-me-text{
-    padding: 20px;
-}
-
-
-.about-me-text p{
-    font-size: 20px;
-}
 
 .about-me-image{
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
     display: inline-block;
+    width: 25%;
 }
+    
+.about-me-text-box{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    vertical-align: middle;
+    margin: 0 0 0 10%;
+}
+
+.slider-text h4{
+    font-size: 40px;
 
 }
 
