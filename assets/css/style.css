@@ -60,6 +60,15 @@ nav{
     color: #0d0f13;
 }
 
+#slider .btn{
+    background: #151e31;
+    border: none;
+}
+
+#slider .btn:hover{
+    background: #576fa3;
+}
+
 /*---------------------------------------------------reusable*/
 
 .uppercase{
@@ -265,7 +274,7 @@ nav{
 
 
 
-/*---------------------------------------------------image slider*/
+/*---------------------------------------------------image carousel*/
 
 .slider-text{
     text-align: center;
@@ -282,6 +291,32 @@ nav{
     margin: 0;
 }
 
+#slider{
+    width: 100%;
+    margin: 50px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+#slider .btn{
+    margin: 20px;
+    
+    
+}
 
 
 /*---------------------------------------------------customer reviews*/
@@ -304,13 +339,12 @@ nav{
 }
 
 .about-me-image{
-    width: 50%;
+    width: 40%;
 }
 
-@media only screen and (min-width: 600px){
-
-.about-me-image{
-    width: 40%;
+#slider{
+    width: 90%;
+    margin: 50px auto;
 }
 
 
@@ -363,3 +397,50 @@ label{
 
 }
 
+#slider{
+    width: 60%;
+    margin: 50px auto;
+}
+
+}
+
+/*------------------------------------------keyframes*/
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%
+    }
+
+    50%{
+        left: -200%
+    }
+
+    70%{
+
+        left: -200%
+    }
+
+    75%{
+        left: -300%
+    }
+
+    95%{
+        left: -300%
+    }
+
+    100%{
+        left: -400%
+    }
+}
