@@ -192,6 +192,9 @@ nav{
     right: -100%;
     padding: 0;
     transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .nav-links li{
@@ -270,6 +273,9 @@ nav{
     padding:0 20px;
     font-size: 28px;
     transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 
@@ -292,13 +298,14 @@ nav{
 }
 
 #slider{
-    width: 100%;
-    margin: 50px 0;
+    width: 90%;
+    margin: 50px auto;
     overflow: hidden;
     text-align: center;
+    
 }
 
-#slider figure{
+#slider div{
     position: relative;
     width: 500%;
     margin: 0;
@@ -307,13 +314,15 @@ nav{
 
 }
 
-#slider figure img{
+#slider div img{
     width: 20%;
     float: left;
 }
 
 #slider .btn{
     margin: 20px;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px;
     
     
 }
@@ -336,6 +345,7 @@ nav{
 }
 .desktop-hero{
     display: block;
+    margin-top: 100px;
 }
 
 .about-me-image{
@@ -343,9 +353,9 @@ nav{
 }
 
 #slider{
-    width: 90%;
     margin: 50px auto;
 }
+
 
 
 @media only screen and (min-width: 1025px){    
