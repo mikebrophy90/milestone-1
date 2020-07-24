@@ -69,6 +69,14 @@ nav{
     background: #576fa3;
 }
 
+.customer-review-text{
+    color: #0d0f13;
+}
+
+.customer-review-stars{
+    color:#151e31;
+}
+
 /*---------------------------------------------------reusable*/
 
 .uppercase{
@@ -330,6 +338,54 @@ nav{
 
 /*---------------------------------------------------customer reviews*/
 
+.customer-review-box
+{   position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: -50px auto 50px;
+    
+    
+}
+
+.customer-review{
+    width: 100%;
+    margin: 100px 0;
+    
+}
+
+.customer-review-image{
+    display: block;
+    
+    
+
+}
+
+.customer-review img{
+    width: 75%;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+.customer-review-text{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.customer-frase{
+    margin: 20px 0;
+}
+
+.customer-review-paragraph p{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+}
+
+
+
+
 
 /*---------------------------------------------------footer*/
 
@@ -356,6 +412,31 @@ nav{
     margin: 50px auto;
 }
 
+.customer-review{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.customer-review-image{
+    width: 20%;
+    margin-left: 50px;
+    
+}
+
+.customer-review img{
+    position: relative;
+    width: 100%;
+}
+
+.customer-review-text{
+    width: 60%;
+}
+
+.customer-review-stars{
+    font-size: 20px;
+}
+    
 
 
 @media only screen and (min-width: 1025px){    
@@ -410,6 +491,27 @@ label{
 #slider{
     width: 60%;
     margin: 50px auto;
+}
+
+.customer-review-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.customer-review{
+    flex-direction: column;
+    width: 33%;
+    padding: 0 20px;
+}
+
+.customer-review-image{
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.customer-review-text{
+    width: 90%;
 }
 
 }
