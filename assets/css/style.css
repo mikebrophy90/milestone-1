@@ -70,7 +70,7 @@ nav{
     background: linear-gradient(-90deg,#21345f, #151e31)
 }
 
-#slider .btn:hover{
+.btn:hover{
     background: #576fa3;
 }
 
@@ -87,6 +87,17 @@ footer{
     background: rgba(0, 0, 0, 0.5);
 }
 
+.package-header-ruby{
+    background: linear-gradient(90deg, #2b0012, #2b0012, #461c2d );
+    color: #fafafa;
+}
+
+.package-header-diamond{
+background: linear-gradient(90deg, #01485e, #01485e, #549eb4 );
+    color: #fafafa;
+}
+
+
 
 
 /*---------------------------------------------------reusable*/
@@ -101,6 +112,11 @@ h6{
     font-weight: 300;
 }
 
+p{
+    font-family: "Roboto",sans-serif;
+    size: 18px;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -113,6 +129,7 @@ h6{
    margin-bottom: 50px;
 
 }
+
 
 
 
@@ -368,33 +385,43 @@ nav{
 .package-price{
     margin:10px 0;
     border-bottom: solid 1px #050a13; 
+    height: 80px;
 }
 
-.package-header{
+.package-price h4{
+    line-height: 80px;
+}
+
+.package-price .special-price{
+    line-height: 40px;
+}
+
+.package-header, .package-header-ruby, .package-header-diamond{
     height: 50px;
 }
 
-.package-header h3{
+.package-header h3, .package-header-ruby h3, .package-header-diamond h3{
     line-height: 50px;
 }
 
 .package-deal{
-    width: 100px;
+    width: 90px;
     position: absolute;
     left: -20px;
     top: 10px;
     transform: rotate(-45deg);
     background: linear-gradient(90deg, #744c20, #744c20, #927145);
     color: #050a13;
+    box-shadow: 1px 1px 3px #050a13;
     
 }
 
 .package-discription{
     margin: 25px auto;
-    width: 75%;
     text-align: left;
-    
+    width: 200px;
 }
+
 
 
 /*---------------------------------------------------customer reviews*/
@@ -480,9 +507,28 @@ footer{
     
 }
 
+/*---------------------------------------------------------------------------packages*/
+
+.package-title-header{
+    margin: 100px auto 50px auto;
+    width: 75%;
+}
 
 
 
+
+.package-add-info{
+    margin: 25px auto;
+    width: 75%;
+    font-weight: 300;
+
+}
+
+.package-add-info p{
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
 
 
 /*--------------------------------------------------------------------------------------------------------*/
@@ -509,23 +555,17 @@ footer{
 
 .customer-review{
     display: flex;
-    flex-direction: row;
-
-    
+    flex-direction: row;    
 }
 
 .customer-review-image{
     width: 20%;
-    margin-left: 50px;
-
-    
+    margin-left: 50px;   
 }
 
 .customer-review img{
     position: relative;
-    width: 100%;
-    
-    
+    width: 100%;    
 }
 
 .customer-review-text{
@@ -534,14 +574,6 @@ footer{
 
 .customer-review-stars{
     font-size: 20px;
-}
-
-.package-container{
-     max-width: 500px;
-}   
-
-.package-discription{
-    width: 200px;
 }
 
 @media only screen and (min-width: 1025px){    
@@ -646,9 +678,38 @@ footer{
     display: inline-block;
     position: absolute;
     line-height: 100px;
-    right: 25px;
-    
-    
+    right: 25px;   
+}
+
+#index-package{
+     max-width: 500px;
+}  
+
+.package-title-header{
+    margin: 100px 0 50px 50px;
+}
+
+.package-title-header p{
+    width:50%;
+}
+
+
+.package-discription{
+    width: 200px;
+    height: 200px;
+}
+
+.all-packages{
+    display: flex;
+    flex: row;
+}
+
+.package-container{
+    width: 30%;
+}
+
+.package-add-info{
+    width: 50%;
 }
 
 
