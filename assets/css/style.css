@@ -60,9 +60,14 @@ nav{
     color: #0d0f13;
 }
 
-#slider .btn{
+.btn{
     background: #151e31;
     border: none;
+}
+
+.package-header{
+    color: #fafafa;
+    background: linear-gradient(-90deg,#21345f, #151e31)
 }
 
 #slider .btn:hover{
@@ -82,7 +87,19 @@ footer{
     background: rgba(0, 0, 0, 0.5);
 }
 
+
+
 /*---------------------------------------------------reusable*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+}
 
 .uppercase{
     text-transform: uppercase;
@@ -261,7 +278,6 @@ nav{
 
 .about-me-text h2{
     margin-bottom: 25px;
-    font-weight: 400;
 }
 
 .about-me-text p{
@@ -332,11 +348,51 @@ nav{
     float: left;
 }
 
-#slider .btn{
+.btn{
     margin: 20px;
     font-family: "Jost", sans-serif;
     letter-spacing: 2px;
     
+    
+}
+/*---------------------------------------------------index package deal*/
+
+.package-container{
+    position: relative;
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.package-price{
+    margin:10px 0;
+    border-bottom: solid 1px #050a13; 
+}
+
+.package-header{
+    height: 50px;
+}
+
+.package-header h3{
+    line-height: 50px;
+}
+
+.package-deal{
+    width: 100px;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    transform: rotate(-45deg);
+    background: linear-gradient(90deg, #744c20, #744c20, #927145);
+    color: #050a13;
+    
+}
+
+.package-discription{
+    margin: 25px auto;
+    width: 75%;
+    text-align: left;
     
 }
 
@@ -479,8 +535,14 @@ footer{
 .customer-review-stars{
     font-size: 20px;
 }
-    
 
+.package-container{
+     max-width: 500px;
+}   
+
+.package-discription{
+    width: 200px;
+}
 
 @media only screen and (min-width: 1025px){    
 
