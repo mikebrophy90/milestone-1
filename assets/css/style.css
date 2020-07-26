@@ -100,6 +100,10 @@ background: linear-gradient(90deg, #01485e, #01485e, #549eb4 );
     color: #fafafa;
 }
 
+.contact{
+    background: #fafafa;
+}
+
 
 
 
@@ -528,21 +532,23 @@ footer{
 
 .contact{
    padding: 0;
-   margin: 100px 25px;
+   margin: 100px auto;
    width: 90%;
    display: flex;
    flex-direction: column;
    align-items: center;
+   box-shadow: 2px 2px 5px #050a13;
 }
 
 .contact-title{
-    padding:0 25px; 
+    padding:25px; 
     width: 90%;
     margin-bottom: 25px;
+
 }
 
 .contact-info{
-    padding:0 25px;
+    padding:25px;
     width: 90%;
 }
 
