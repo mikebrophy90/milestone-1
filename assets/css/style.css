@@ -118,7 +118,7 @@ h6{
 
 p{
     font-family: "Roboto",sans-serif;
-    size: 18px;
+    font-size: 18px;
     line-height: 140%;
 }
 
@@ -739,7 +739,7 @@ footer{
 
 .all-packages{
     display: flex;
-    flex: row;
+    flex-direction: row;
 }
 
 .package-container{
@@ -783,27 +783,28 @@ footer{
     }
 
     45%{
-        left: -100%
+        left: -100%;
     }
 
     50%{
-        left: -200%
+        left: -200%;
     }
 
     70%{
 
-        left: -200%
+        left: -200%;
     }
 
     75%{
-        left: -300%
+        left: -300%;
     }
 
     95%{
-        left: -300%
+        left: -300%;
     }
 
     100%{
-        left: -400%
+        left: -400%;
     }
-}
+
+
