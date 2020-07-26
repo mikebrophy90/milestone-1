@@ -524,6 +524,32 @@ footer{
     overflow: hidden;
 }
 
+/*---------------------------------------------------contact*/
+
+.contact{
+   padding: 0;
+   margin: 100px 25px;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contact-title{
+    padding:0 25px; 
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.contact-info{
+    padding:0 25px;
+    width: 90%;
+}
+
+.contact-info-phone{
+    margin-bottom: 25px;
+}
+
 /*--------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------responsive----------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------*/
@@ -721,6 +747,22 @@ footer{
     width: 50%;
 }
 
+/*------------------------------------------contact*/
+
+.contact{
+    flex-direction: row;
+    margin-bottom: 300px;
+}
+
+.contact-title{ 
+    width: 50%;
+    
+    
+}
+
+.contact-info{
+    width: 50%;
+}
 
 }
 
