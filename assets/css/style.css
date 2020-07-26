@@ -115,6 +115,7 @@ h6{
 p{
     font-family: "Roboto",sans-serif;
     size: 18px;
+    line-height: 140%;
 }
 
 .uppercase{
@@ -610,6 +611,7 @@ label{
     line-height: 100px;
 }
 
+/*---------------------------------------------------responsive 1025 about me*/
 .about-me-image{
     display: inline-block;
     width: 25%;
@@ -624,6 +626,7 @@ label{
     margin: 0 0 0 10%;
 }
 
+/*---------------------------------------------------responsive 1025 image slider*/
 .slider-text h4{
     font-size: 40px;
 
@@ -634,6 +637,7 @@ label{
     margin: 50px auto;
 }
 
+/*---------------------------------------------------responsive 1025 customer review*/
 .customer-review-box{
     display: flex;
     flex-direction: row;
@@ -655,6 +659,7 @@ label{
     width: 90%;
 }
 
+/*---------------------------------------------------responsive 1025 footer*/
 footer{
     height: 100px;
 }
@@ -681,6 +686,7 @@ footer{
     right: 25px;   
 }
 
+/*---------------------------------------------------responsive 1025 packages*/
 #index-package{
      max-width: 500px;
 }  
@@ -705,7 +711,7 @@ footer{
 }
 
 .package-container{
-    width: 30%;
+    width: 25%;
 }
 
 .package-add-info{
