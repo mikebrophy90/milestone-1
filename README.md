@@ -54,6 +54,8 @@ i have used that is not my own will be credited at the bottom of this page.
  * CONTENT
 
     Images i have used are from https://www.worldsbestweddingphotos.com/ and google images.<br>
+    Fonts i have used are from google fonts. <br>
+    Icons i have used are from fontawesome
 
 
  * ACKNOWLEDGEMENTS
