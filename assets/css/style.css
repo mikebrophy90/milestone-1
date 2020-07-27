@@ -436,7 +436,7 @@ label #cancel{
 }
 
 .customer-review img{
-    width: 75%;
+    width: 50%;
     border-radius: 50%;
     margin: 0 auto;
     border: 1px rgba(0, 0, 0, 0.2) solid;
@@ -544,13 +544,25 @@ footer{
 
 }
 
+.contact-title h2{
+    margin-bottom: 25px;
+}
+
 .contact-info{
     padding:25px;
     width: 90%;
 }
 
-.contact-info-phone{
+.contact-info h4{
     margin-bottom: 25px;
+}
+
+.contact-info-phone{
+    margin-bottom: 50px;
+}
+
+.contact-info-email .desktop-email{
+    display: none;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
@@ -763,6 +775,14 @@ footer{
 
 .contact-info{
     width: 50%;
+}
+
+.contact-info-email .mobile-email{
+    display: none;
+}
+
+.contact-info-email .desktop-email{
+    display: block;
 }
 
 }
