@@ -15,6 +15,7 @@ i have used that is not my own will be credited at the bottom of this page.
   *  As a user i want to find a photographer that has different packages to choose from.
   *  As a user i want to be able to see examples of previous work.
   *  As a user i want to see customer reviews.
+  * As a returning user i have liked the style of photography and packages and want to book.
 
 * DESIGN
   
@@ -56,8 +57,8 @@ i have used that is not my own will be credited at the bottom of this page.
  * CONTENT
 
     Images i have used are from https://www.worldsbestweddingphotos.com/ and google images.<br>
-    Fonts i have used are from google fonts. <br>
-    Icons i have used are from fontawesome
+    Fonts i have used are from google fonts, https://fonts.google.com/?query=os. <br>
+    Icons i have used are from fontawesome, https://fontawesome.com/.
 
 
  * ACKNOWLEDGEMENTS

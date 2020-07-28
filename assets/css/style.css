@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Mrs+Saint+Delafield&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-body{
+body {
     margin: 0;
     padding: 0;
 }
-
 /*---------------------------------------------------colors*/
 /*
 #fafafa; white
@@ -13,23 +11,19 @@ body{
 #0d0f13; black
 #93969b; grey
 */
-body{
-    background:rgba(0, 0, 0, 0.2)
+body {
+    background: rgba(0, 0, 0, 0.2)
 }
-
-nav{
-    background: linear-gradient( -60deg, #151e31, #050a13);
+nav {
+    background: linear-gradient(-60deg, #151e31, #050a13);
 }
-
-.logo, label, .nav-links li a{
+.logo, label, .nav-links li a {
     color: #fafafa;
 }
-
-.nav-links{
+.nav-links {
     background: #0d0f13;
 }
-
-.nav-links li a:hover{
+.nav-links li a:hover {
     color: #576fa3;
     text-decoration: none;
     transition: all .5s ease-in-out;
@@ -37,135 +31,108 @@ nav{
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
-
-.nav-links li a.active{
+.nav-links li a.active {
     color: #576fa3;
 }
-
-.about-me-text-box{
+.about-me-text-box {
     background: #fafafa;
 }
-
-.about-me-text{
+.about-me-text {
     color: #0d0f13;
 }
-
-.about-me-social-links .fab{
+.about-me-social-links .fab {
     color: #0d0f13;
 }
-
-.about-me-social-links .fab:hover{
+.about-me-social-links .fab:hover {
     color: #576fa3;
     cursor: pointer;
 }
-
-.slider-text h4{
+.slider-text h4 {
     color: #0d0f13;
 }
-
-.btn{
+.btn {
     background: #151e31;
     border: none;
 }
-
-.package-header{
+.package-header {
     color: #fafafa;
-    background: linear-gradient(-90deg,#21345f, #151e31)
+    background: linear-gradient(-90deg, #21345f, #151e31)
 }
-
-.btn:hover{
+.btn:hover {
     background: #576fa3;
 }
-
-.customer-review-text{
+.customer-review-text {
     color: #0d0f13;
 }
-
-.customer-review-stars{
-    color:#151e31;
+.customer-review-stars {
+    color: #151e31;
 }
-
-footer{
+footer {
     color: #fafafa;
     background: rgba(0, 0, 0, 0.5);
 }
-
-.package-header-ruby{
-    background: linear-gradient(90deg, #2b0012, #2b0012, #461c2d );
+.package-header-ruby {
+    background: linear-gradient(90deg, #2b0012, #2b0012, #461c2d);
     color: #fafafa;
 }
-
-.package-header-diamond{
-background: linear-gradient(90deg, #01485e, #01485e, #549eb4 );
+.package-header-diamond {
+    background: linear-gradient(90deg, #01485e, #01485e, #549eb4);
     color: #fafafa;
 }
-
-.contact{
+.contact {
     background: #fafafa;
 }
-
 /*---------------------------------------------------reusable*/
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-family: "Jost", sans-serif;
     font-weight: 300;
 }
-
-p{
-    font-family: "Roboto",sans-serif;
+p {
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 140%;
 }
-
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
-
-.break{
+.break {
     width: 10%;
     color: #576fa3;
     border: 2px solid #576fa3;
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
-
-.title-header{
+.title-header {
     margin: 100px auto 50px auto;
     width: 75%;
 }
-
 /*---------------------------------------------------header*/
-
-.mobile-hero{
+.mobile-hero {
     position: relative;
     width: 100%;
     margin-top: 100px;
 }
-
-.desktop-hero{
+.desktop-hero {
     position: relative;
     width: 100%;
     display: none;
 }
-
 /*---------------------navbar*/
-
-nav{
+nav {
     position: fixed;
     z-index: 1;
     left: 0;
     right: 0;
     top: 0;
     font-family: "Jost", sans-serif;
-    height: 100px;  
+    height: 100px;
 }
-
-.logo{
+.logo {
     margin-left: 50px;
     margin-top: 5px;
     padding: 15px 0;
@@ -174,17 +141,15 @@ nav{
     height: 100%;
     text-align: center;
 }
-
-.logo-part-1{
+.logo-part-1 {
     display: block;
     position: absolute;
     left: 60px;
     font-family: "mrs saint delafield", sans-serif;
-    font-size: 32px; 
+    font-size: 32px;
 }
-
-.logo-part-2{
-    display:block;
+.logo-part-2 {
+    display: block;
     position: absolute;
     top: 50px;
     font-family: "Jost", sans-serif;
@@ -193,8 +158,7 @@ nav{
     letter-spacing: 5px;
     text-shadow: 2px 2px 2px #151e31;
 }
-
-.nav-links{
+.nav-links {
     display: block;
     position: fixed;
     top: 100px;
@@ -207,37 +171,31 @@ nav{
     -webkit-transition: all .5s;
     -o-transition: all .5s;
 }
-
-.nav-links li{
-
+.nav-links li {
     display: block;
     line-height: 80px;
     text-align: center;
-    margin-top:50px; 
+    margin-top: 50px;
 }
-
- li a{
+li a {
     list-style: none;
     font-family: "Jost", sans-serif;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 5px;
 }
-
 /*------------burger toggle*/
-
-label #btn{
+label #btn {
     position: absolute;
     top: 0;
-    right:50px;
+    right: 50px;
     font-size: 30px;
     float: right;
     line-height: 100px;
     cursor: pointer;
     display: block;
 }
-
-label #cancel{
+label #cancel {
     position: absolute;
     top: 0;
     right: 50px;
@@ -247,33 +205,26 @@ label #cancel{
     cursor: pointer;
     display: none;
 }
-
-#check{
+#check {
     display: none;
 }
-
-#check:checked ~ .nav-links{
+#check:checked ~ .nav-links {
     right: 0;
 }
-
-#check:checked ~ label #btn{
+#check:checked ~ label #btn {
     display: none;
 }
-
-#check:checked ~ label #cancel{
+#check:checked ~ label #cancel {
     display: block;
 }
-
 /*---------------------------------------------------about me*/
-
-.about-me{
+.about-me {
     display: block;
     position: relative;
     text-align: center;
     margin-bottom: 50px;
 }
-
-.about-me-image{
+.about-me-image {
     margin: 0 auto;
     width: 100%;
     height: auto;
@@ -281,122 +232,100 @@ label #cancel{
     box-shadow: 2px 2px 5px #0d0f13;
     margin-bottom: 25px;
 }
-
-.about-me-text-box{
+.about-me-text-box {
     width: 90%;
     text-align: left;
     margin: 0 auto;
     box-shadow: 2px 2px 5px #0d0f13;
 }
-
-.about-me-text{
+.about-me-text {
     font-family: "Roboto", sans-serif;
     padding: 10px;
 }
-
-.about-me-text h2{
+.about-me-text h2 {
     margin-bottom: 25px;
 }
-
-.about-me-text p{
+.about-me-text p {
     margin-bottom: 25px;
 }
-
-.follow-me{
+.follow-me {
     display: block;
     text-align: center;
 }
-
-.about-me-social-links{
+.about-me-social-links {
     height: 50px;
     text-align: center;
 }
-
-.about-me-social-links .fab{
+.about-me-social-links .fab {
     line-height: 50px;
-    padding:0 20px;
+    padding: 0 20px;
     font-size: 28px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
-
 /*---------------------------------------------------image carousel*/
-
-.slider-text{
+.slider-text {
     text-align: center;
     height: 100px;
     padding: 0;
 }
-
-.slider-text h4{
+.slider-text h4 {
     font-family: "mrs saint delafield", sans-serif;
     font-size: 28px;
     line-height: 100px;
     text-align: center;
     margin: 0;
 }
-
-#slider{
+#slider {
     width: 90%;
     margin: 50px auto;
     overflow: hidden;
     text-align: center;
 }
-
-#slider div{
+#slider div {
     position: relative;
     width: 500%;
     margin: 0;
     left: 0;
     animation: 30s slider infinite;
 }
-
-#slider div img{
+#slider div img {
     width: 20%;
     float: left;
 }
-
-.btn{
+.btn {
     margin: 20px;
     font-family: "Jost", sans-serif;
     letter-spacing: 2px;
 }
-
 /*---------------------------------------------------index package deal*/
-
-.package-container{
+.package-container {
     position: relative;
     display: block;
     width: 75%;
     text-align: center;
     margin: 50px auto;
 }
-
-.package-price{
-    margin:10px 0;
-    border-bottom: solid 1px #050a13; 
+.package-price {
+    margin: 10px 0;
+    border-bottom: solid 1px #050a13;
     height: 80px;
 }
-
-.package-price h4{
+.package-price h4 {
     line-height: 80px;
 }
-
-.package-price .special-price{
+.package-price .special-price {
     line-height: 40px;
 }
-
-.package-header, .package-header-ruby, .package-header-diamond{
+.package-header, .package-header-ruby, .package-header-diamond {
     height: 50px;
 }
-
-.package-header h3, .package-header-ruby h3, .package-header-diamond h3{
+.package-header h3, .package-header-ruby h3, .package-header-diamond h3 {
     line-height: 50px;
 }
-
-.package-deal{
+.package-deal {
     width: 90px;
     position: absolute;
     left: -20px;
@@ -409,103 +338,84 @@ label #cancel{
     color: #050a13;
     box-shadow: 1px 1px 3px #050a13;
 }
-
-.package-discription{
+.package-discription {
     margin: 25px auto;
     text-align: left;
     width: 200px;
 }
-
 /*---------------------------------------------------customer reviews*/
-
-.customer-review-box{
+.customer-review-box {
     position: relative;
     width: 100%;
     overflow: hidden;
     text-align: center;
     margin: -50px auto 50px;
 }
-
-.customer-review{
+.customer-review {
     width: 100%;
     margin: 100px 0;
 }
-
-.customer-review-image{
+.customer-review-image {
     display: block;
 }
-
-.customer-review img{
+.customer-review img {
     width: 60%;
     border-radius: 50%;
     margin: 0 auto 25px;
     border: 1px rgba(0, 0, 0, 0.2) solid;
 }
-
-.customer-review-text{
+.customer-review-text {
     display: block;
     margin: 0 auto;
     width: 75%;
 }
-
-.customer-frase{
+.customer-frase {
     margin: 20px 0;
 }
-
-.customer-review-paragraph p{
+.customer-review-paragraph p {
     font-family: "Jost", sans-serif;
     font-size: 16px;
 }
-
 /*---------------------------------------------------footer*/
-
-footer{
+footer {
     height: 180px;
-    font-family: "Jost",sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: 300;
     display: flex;
     flex-direction: column;
 }
-
-.phone{
+.phone {
     display: block;
     height: 60px;
     line-height: 60px;
     text-align: center;
 }
-
-.email{
+.email {
     display: block;
     height: 60px;
     line-height: 60px;
     text-align: center;
 }
-
-.copyright{
-     display: block;
-     height: 60px;
-     line-height: 60px;
+.copyright {
+    display: block;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
 }
-
 /*---------------------------------------------------------------------------packages*/
-
-.package-add-info{
+.package-add-info {
     margin: 25px auto;
     width: 75%;
     font-weight: 300;
 }
-
-.package-add-info p{
+.package-add-info p {
     font-family: "roboto", sans-serif;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
-
 /*---------------------------------------------------------------------------gallery*/
-
-.gallery{
+.gallery {
     background: #fafafa;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -514,318 +424,240 @@ footer{
     padding: 1rem;
     padding-bottom: 100px;
 }
-
-.box{
+.box {
     display: block;
-    
 }
-
-.box img{
+.box img {
     width: 100%;
     overflow: hidden;
 }
-
 /*---------------------------------------------------contact*/
-
-.contact{
-   padding: 0;
-   margin: 100px auto;
-   width: 90%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   box-shadow: 2px 2px 5px #050a13;
+.contact {
+    padding: 0;
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px #050a13;
 }
-
-.contact-title{
-    padding:25px; 
+.contact-title {
+    padding: 25px;
     width: 90%;
     margin-bottom: 25px;
-
 }
-
-.contact-title h2{
+.contact-title h2 {
     margin-bottom: 25px;
 }
-
-.contact-info{
-    padding:25px;
+.contact-info {
+    padding: 25px;
     width: 90%;
 }
-
-.contact-info h4{
+.contact-info h4 {
     margin-bottom: 25px;
 }
-
-.contact-info-phone{
+.contact-info-phone {
     margin-bottom: 50px;
 }
-
-.contact-info-email .desktop-email{
+.contact-info-email .desktop-email {
     display: none;
 }
-
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
 /*--------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------responsive----------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 600px){
-
-/*---------------------------------------------------responsive 600 header*/
-.mobile-hero{
-    display: none;    
+@media only screen and (min-width: 600px) {
+    /*---------------------------------------------------responsive 600 header*/
+    .mobile-hero {
+        display: none;
+    }
+    .desktop-hero {
+        display: block;
+        margin-top: 100px;
+    }
+    /*---------------------------------------------------responsive 600 about me*/
+    .about-me-image {
+        width: 40%;
+    }
+    /*---------------------------------------------------responsive 600 image slider*/
+    #slider {
+        margin: 50px auto;
+    }
+    /*---------------------------------------------------responsive 600 customer review*/
+    .customer-review {
+        display: flex;
+        flex-direction: row;
+    }
+    .customer-review-image {
+        width: 20%;
+        margin-left: 50px;
+    }
+    .customer-review img {
+        position: relative;
+        width: 100%;
+    }
+    .customer-review-text {
+        width: 60%;
+    }
+    .customer-review-stars {
+        font-size: 20px;
+    }
+    /*---------------------------------------------------responsive 600 gallery*/
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
 }
-
-.desktop-hero{
-    display: block;
-    margin-top: 100px;
-}
-
-/*---------------------------------------------------responsive 600 about me*/
-
-.about-me-image{
-    width: 40%;
-}
-
-/*---------------------------------------------------responsive 600 image slider*/
-
-#slider{
-    margin: 50px auto;
-}
-
-/*---------------------------------------------------responsive 600 customer review*/
-
-.customer-review{
-    display: flex;
-    flex-direction: row;    
-}
-
-.customer-review-image{
-    width: 20%;
-    margin-left: 50px;   
-}
-
-.customer-review img{
-    position: relative;
-    width: 100%;    
-}
-
-.customer-review-text{
-    width: 60%;
-}
-
-.customer-review-stars{
-    font-size: 20px;
-}
-
-/*---------------------------------------------------responsive 600 gallery*/
-
-.gallery{
-grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-}
-
-@media only screen and (min-width: 1025px){    
-
-/*---------------------------------------------------responsive 1025 navbar*/
-
-.desktop-hero{
-    margin-top: 0;
-}
-
-label{
-    display:none;
-}
-
-.nav-links{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    width: 50%;
-    height: 100px;
-    top: 0;
-    right: 0;
-    float: right;
-    justify-content: space-around;
-    background: rgba(0, 0, 0, 0)
-}
-
-.nav-links li{
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    line-height: 100px;
-}
-
-/*---------------------------------------------------responsive 1025 about me*/
-
-.about-me-image{
-    display: inline-block;
-    width: 25%;
-}
-    
-.about-me-text-box{
-    display: inline-block;
-    height: 100%;
-    width: 50%;
-    padding: 20px;
-    vertical-align: middle;
-    margin: 0 0 0 10%;
-}
-
-/*---------------------------------------------------responsive 1025 image slider*/
-
-.slider-text h4{
-    font-size: 40px;
-}
-
-#slider{
-    width: 60%;
-    margin: 50px auto;
-}
-
-/*---------------------------------------------------responsive 1025 customer review*/
-
-.customer-review-box{
-    display: flex;
-    flex-direction: row;
-}
-
-.customer-review{
-    flex-direction: column;
-    width: 33%;
-    padding: 0 20px;
-}
-
-.customer-review-image{
-  width: 50%;
-  margin: 0 auto;
-}
-
-.customer-review-text{
-    width: 90%;
-}
-
-/*---------------------------------------------------responsive 1025 footer*/
-
-footer{
-    height: 100px;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.phone{
-    width: 30%;
-    line-height: 100px;
-}
-
-.email{
-    width: 30%;
-    line-height: 100px;
-}
-
-.copyright{
+@media only screen and (min-width: 1025px) {
+    /*---------------------------------------------------responsive 1025 navbar*/
+    .desktop-hero {
+        margin-top: 0;
+    }
+    label {
+        display: none;
+    }
+    .nav-links {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 50%;
+        height: 100px;
+        top: 0;
+        right: 0;
+        float: right;
+        justify-content: space-around;
+        background: rgba(0, 0, 0, 0)
+    }
+    .nav-links li {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        line-height: 100px;
+    }
+    /*---------------------------------------------------responsive 1025 about me*/
+    .about-me-image {
+        display: inline-block;
+        width: 25%;
+    }
+    .about-me-text-box {
+        display: inline-block;
+        height: 100%;
+        width: 50%;
+        padding: 20px;
+        vertical-align: middle;
+        margin: 0 0 0 10%;
+    }
+    /*---------------------------------------------------responsive 1025 image slider*/
+    .slider-text h4 {
+        font-size: 40px;
+    }
+    #slider {
+        width: 60%;
+        margin: 50px auto;
+    }
+    /*---------------------------------------------------responsive 1025 customer review*/
+    .customer-review-box {
+        display: flex;
+        flex-direction: row;
+    }
+    .customer-review {
+        flex-direction: column;
+        width: 33%;
+        padding: 0 20px;
+    }
+    .customer-review-image {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .customer-review-text {
+        width: 90%;
+    }
+    /*---------------------------------------------------responsive 1025 footer*/
+    footer {
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .phone {
         width: 30%;
-        line-height: 100px;  
-}
-
-/*---------------------------------------------------responsive 1025 packages*/
-
-#index-package{
-     max-width: 500px;
-}  
-
-.title-header{
-    margin: 100px 0 50px 50px;
-}
-
-.title-header p{
-    width:50%;
-}
-
-.package-discription{
-    width: 200px;
-    height: 200px;
-}
-
-.all-packages{
-    display: flex;
-    flex-direction: row;
-}
-
-.package-container{
-    width: 25%;
-}
-
-.package-add-info{
-    width: 50%;
-}
-
-/*------------------------------------------responsive 1025 contact*/
-
-.contact{
-    flex-direction: row;
-    margin-bottom: 300px;
-}
-
-.contact-title{ 
-    width: 50%;
-}
-
-.contact-info{
-    width: 50%;
-}
-
-.contact-info-email .mobile-email{
-    display: none;
-}
-
-.contact-info-email .desktop-email{
-    display: block;
-}
-
-}
-
-/*------------------------------------------keyframes*/
-
-@keyframes slider {
-    0%{
-        left: 0;
+        line-height: 100px;
     }
-
-    20%{
-        left: 0;
+    .email {
+        width: 30%;
+        line-height: 100px;
     }
-
-    25%{
-        left: -100%;
+    .copyright {
+        width: 30%;
+        line-height: 100px;
     }
-
-    45%{
-        left: -100%;
+    /*---------------------------------------------------responsive 1025 packages*/
+    #index-package {
+        max-width: 500px;
     }
-
-    50%{
-        left: -200%;
+    .title-header {
+        margin: 100px 0 50px 50px;
     }
-
-    70%{
-
-        left: -200%;
+    .title-header p {
+        width: 50%;
     }
-
-    75%{
-        left: -300%;
+    .package-discription {
+        width: 200px;
+        height: 200px;
     }
-
-    95%{
-        left: -300%;
+    .all-packages {
+        display: flex;
+        flex-direction: row;
     }
-
-    100%{
-        left: -400%;
+    .package-container {
+        width: 25%;
     }
-
-
-}}
+    .package-add-info {
+        width: 50%;
+    }
+    /*------------------------------------------responsive 1025 contact*/
+    .contact {
+        flex-direction: row;
+        margin-bottom: 300px;
+    }
+    .contact-title {
+        width: 50%;
+    }
+    .contact-info {
+        width: 50%;
+    }
+    .contact-info-email .mobile-email {
+        display: none;
+    }
+    .contact-info-email .desktop-email {
+        display: block;
+    }
+}
