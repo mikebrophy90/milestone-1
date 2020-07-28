@@ -22,6 +22,8 @@ i have used that is not my own will be credited at the bottom of this page.
 
 * WIRE FRAMES
 
+    You can find wireframes in the assets folder.
+
 ### FEATURES
 
  * TECHNOLOGY USED
