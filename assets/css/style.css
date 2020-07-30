@@ -3,14 +3,15 @@ body {
     margin: 0;
     padding: 0;
 }
-/*---------------------------------------------------colors*/
-/*
+/*---------------------------------------------------colors
+
 #fafafa; white
 #576fa3; lt blue
 #151e31; dk blue
 #0d0f13; black
 #93969b; grey
 */
+
 body {
     background: rgba(0, 0, 0, 0.2)
 }
@@ -82,7 +83,9 @@ footer {
 .contact {
     background: #fafafa;
 }
+
 /*---------------------------------------------------reusable*/
+
 h1,
 h2,
 h3,
@@ -111,7 +114,9 @@ p {
     margin: 100px auto 50px auto;
     width: 75%;
 }
+
 /*---------------------------------------------------header*/
+
 .mobile-hero {
     position: relative;
     width: 100%;
@@ -122,7 +127,9 @@ p {
     width: 100%;
     display: none;
 }
+
 /*---------------------navbar*/
+
 nav {
     position: fixed;
     z-index: 1;
@@ -140,6 +147,7 @@ nav {
     width: 33%;
     height: 100%;
     text-align: center;
+    animation: fadein 2s;
 }
 .logo-part-1 {
     display: block;
@@ -176,6 +184,7 @@ nav {
     line-height: 80px;
     text-align: center;
     margin-top: 50px;
+    
 }
 li a {
     list-style: none;
@@ -183,6 +192,7 @@ li a {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 5px;
+    animation: fadein 2s;
 }
 /*------------burger toggle*/
 label #btn {
@@ -307,6 +317,7 @@ label #cancel {
     width: 75%;
     text-align: center;
     margin: 50px auto;
+    animation: fadein 2s;
 }
 .package-price {
     margin: 10px 0;
@@ -407,12 +418,14 @@ footer {
     margin: 25px auto;
     width: 75%;
     font-weight: 300;
+    
 }
 .package-add-info p {
     font-family: "roboto", sans-serif;
     font-size: 18px;
     text-align: center;
     margin-bottom: 50px;
+    animation: fadein 2s;
 }
 /*---------------------------------------------------------------------------gallery*/
 .gallery {
@@ -423,6 +436,7 @@ footer {
     grid-auto-flow: dense;
     padding: 1rem;
     padding-bottom: 100px;
+    animation: fadein 2s;
 }
 .box {
     display: block;
@@ -461,6 +475,17 @@ footer {
 }
 .contact-info-email .desktop-email {
     display: none;
+}
+
+/*-----------------------------------------keyframes*/
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 @keyframes slider {
     0% {
@@ -582,7 +607,6 @@ footer {
     }
     #slider {
         width: 60%;
-        margin: 50px auto;
     }
     /*---------------------------------------------------responsive 1025 customer review*/
     .customer-review-box {
