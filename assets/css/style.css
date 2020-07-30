@@ -55,10 +55,6 @@ nav {
     background: #151e31;
     border: none;
 }
-.package-header {
-    color: #fafafa;
-    background: linear-gradient(-90deg, #21345f, #151e31)
-}
 .btn:hover {
     background: #576fa3;
 }
@@ -72,16 +68,44 @@ footer {
     color: #fafafa;
     background: rgba(0, 0, 0, 0.5);
 }
-.package-header-ruby {
-    background: linear-gradient(90deg, #2b0012, #2b0012, #461c2d);
+.sapphire .front-card {
+    background-image: linear-gradient(170deg, #151e31 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(/assets/images/weddingphoto20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fafafa;
 }
-.package-header-diamond {
-    background: linear-gradient(90deg, #01485e, #01485e, #549eb4);
+
+.ruby .front-card {
+    background-image: linear-gradient(170deg, #2b0012 25%, rgba(69, 28, 44, 0.7) 80%, rgba(69, 28, 44, 0.7) 10%), url(/assets/images/weddingphoto21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fafafa;
+}
+.diamond .front-card {
+    background-image: linear-gradient(170deg, #3f8499 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(/assets/images/weddingphoto22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fafafa;
+}
+.sapphire .back-card{
+    background: #738e9c;
+    color: #fafafa;
+}
+.ruby .back-card{
+    background: #461c2d;
+    color: #fafafa;
+}
+.diamond .back-card{
+    background: #7da2ac;
     color: #fafafa;
 }
 .contact {
     background: #fafafa;
+}
+
+.back-card .button:hover{
+    background: #fafafa;
+    color: #0d0f13;
 }
 
 /*---------------------------------------------------reusable*/
@@ -194,7 +218,9 @@ li a {
     letter-spacing: 5px;
     animation: fadein 2s;
 }
+
 /*------------burger toggle*/
+
 label #btn {
     position: absolute;
     top: 0;
@@ -227,7 +253,9 @@ label #cancel {
 #check:checked ~ label #cancel {
     display: block;
 }
+
 /*---------------------------------------------------about me*/
+
 .about-me {
     display: block;
     position: relative;
@@ -275,7 +303,9 @@ label #cancel {
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+
 /*---------------------------------------------------image carousel*/
+
 .slider-text {
     text-align: center;
     height: 100px;
@@ -310,51 +340,9 @@ label #cancel {
     font-family: "Jost", sans-serif;
     letter-spacing: 2px;
 }
-/*---------------------------------------------------index package deal*/
-.package-container {
-    position: relative;
-    display: block;
-    width: 75%;
-    text-align: center;
-    margin: 50px auto;
-    animation: fadein 2s;
-}
-.package-price {
-    margin: 10px 0;
-    border-bottom: solid 1px #050a13;
-    height: 80px;
-}
-.package-price h4 {
-    line-height: 80px;
-}
-.package-price .special-price {
-    line-height: 40px;
-}
-.package-header, .package-header-ruby, .package-header-diamond {
-    height: 50px;
-}
-.package-header h3, .package-header-ruby h3, .package-header-diamond h3 {
-    line-height: 50px;
-}
-.package-deal {
-    width: 90px;
-    position: absolute;
-    left: -20px;
-    top: 10px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    background: linear-gradient(90deg, #744c20, #744c20, #927145);
-    color: #050a13;
-    box-shadow: 1px 1px 3px #050a13;
-}
-.package-discription {
-    margin: 25px auto;
-    text-align: left;
-    width: 200px;
-}
+
 /*---------------------------------------------------customer reviews*/
+
 .customer-review-box {
     position: relative;
     width: 100%;
@@ -413,21 +401,111 @@ footer {
     line-height: 60px;
     text-align: center;
 }
+
 /*---------------------------------------------------------------------------packages*/
-.package-add-info {
-    margin: 25px auto;
-    width: 75%;
-    font-weight: 300;
+
+.package-container{
+    position: relative;
+    width:240px;
+    height: 380px;
+    transition: fadein 2s;
+    margin: 50px auto;
     
 }
-.package-add-info p {
-    font-family: "roboto", sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 50px;
-    animation: fadein 2s;
+
+.fullcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    transition-delay: 0.2s;
 }
+
+.fullcard:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.front-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 4px 4px 10px #0d0f13;
+}
+
+.back-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #0d0f13;
+    transform: rotateY(180deg);
+}
+
+.card-title{
+    display: block;
+    float: left;
+    padding: 20px 0 0 20px
+}
+
+.package-price{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 150px;
+}
+
+.front-card h6{
+    width: 80px;
+    position: absolute;
+    bottom:20px;
+    left: 80px;
+    border: #fafafa 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.package-discription{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.back-card .button{
+    width: 80px;
+    position: absolute;
+    bottom:28px;
+    left: 80px;
+    border: #fafafa 2px solid;
+    padding: 2px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.back-card ul li{
+    text-align: left;
+}
+
+.package-add-info{
+    width:75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /*---------------------------------------------------------------------------gallery*/
+
 .gallery {
     background: #fafafa;
     display: grid;
@@ -644,9 +722,7 @@ footer {
         line-height: 100px;
     }
     /*---------------------------------------------------responsive 1025 packages*/
-    #index-package {
-        max-width: 500px;
-    }
+    
     .title-header {
         margin: 100px 0 50px 50px;
     }
@@ -660,9 +736,8 @@ footer {
     .all-packages {
         display: flex;
         flex-direction: row;
-    }
-    .package-container {
-        width: 25%;
+        width: 75%;
+        margin: 0 auto 50px;
     }
     .package-add-info {
         width: 50%;
