@@ -74,12 +74,12 @@ footer {
     background-size: cover;
     color: #fafafa;
 }
-
 .ruby .front-card {
     background-image: linear-gradient(170deg, #2b0012 25%, rgba(69, 28, 44, 0.7) 80%, rgba(69, 28, 44, 0.7) 10%), url(/assets/images/weddingphoto21.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fafafa;
+    
 }
 .diamond .front-card {
     background-image: linear-gradient(170deg, #3f8499 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(/assets/images/weddingphoto22.jpg);
@@ -102,10 +102,23 @@ footer {
 .contact {
     background: #fafafa;
 }
-
+.back-card .index-button:hover{
+    background: #fafafa;
+    color: #0d0f13;
+}
 .back-card .button:hover{
     background: #fafafa;
     color: #0d0f13;
+}
+.modal-close .fa-times{
+    background: #fafafa;
+    color: #0d0f13;
+    border: 2px #0d0f13 solid;
+}
+.modal-close .fa-times:hover{
+    background: #0d0f13;
+    color: #fafafa;
+    border: 2px #fafafa solid;
 }
 
 /*---------------------------------------------------reusable*/
@@ -375,7 +388,9 @@ label #cancel {
     font-family: "Jost", sans-serif;
     font-size: 16px;
 }
+
 /*---------------------------------------------------footer*/
+
 footer {
     height: 180px;
     font-family: "Jost", sans-serif;
@@ -409,24 +424,29 @@ footer {
     width:240px;
     height: 380px;
     transition: fadein 2s;
+    -webkit-transition: fadein 2s;
+    -moz-transition: fadein 2s;
+    -o-transition: fadein 2s;
     margin: 50px auto;
-    
 }
-
 .fullcard{
     position: absolute;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
 }
-
 .fullcard:hover{
     transform: rotateY(180deg);
     cursor: pointer;
 }
-
 .front-card{
     position: absolute;
     width: 100%;
@@ -436,7 +456,6 @@ footer {
     text-align: center;
     box-shadow: 4px 4px 10px #0d0f13;
 }
-
 .back-card{
     position: absolute;
     width: 100%;
@@ -447,13 +466,11 @@ footer {
     box-shadow: 4px 4px 10px #0d0f13;
     transform: rotateY(180deg);
 }
-
 .card-title{
     display: block;
     float: left;
     padding: 20px 0 0 20px
 }
-
 .package-price{
    display: flex;
    flex-direction: column;
@@ -462,7 +479,6 @@ footer {
    justify-content: space-around;
    margin-top: 150px;
 }
-
 .front-card h6{
     width: 80px;
     position: absolute;
@@ -472,16 +488,24 @@ footer {
     padding: 5px;
     border-radius: 10px;
 }
-
-.package-discription{
+.package-discription ul{
     display: flex;
     flex-direction: column;
-    height: 75%;
     justify-content: space-around;
-    align-items: center;
+    text-align: left;
     padding-top: 25px;
 }
-
+.back-card .index-button{
+    display: inline;
+    position: absolute;
+    bottom:28px;
+    left: 75px;
+    border: #fafafa 2px solid;
+    padding: 2px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fafafa;
+}
 .back-card .button{
     width: 80px;
     position: absolute;
@@ -493,11 +517,9 @@ footer {
     text-decoration: none;
     color: #fafafa;
 }
-
 .back-card ul li{
     text-align: left;
 }
-
 .package-add-info{
     width:75%;
     text-align: center;
@@ -522,8 +544,57 @@ footer {
 .box img {
     width: 100%;
     overflow: hidden;
+    transition:all 0.5s;
 }
+.box img:hover{
+    filter: brightness(25%);
+    cursor: pointer;
+}
+.modal-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .9);
+    width:100%;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-image img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+.modal-close .fa-times{
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 30px;
+    transition: all 0.5s;
+}
+.modal-close .fal{
+    font-size: 20px;
+    padding: 5.5px 0 0 9px;
+    }
+.modal-container:target{
+    visibility: visible;
+    opacity: 1;
+}
+.modal-container .modal-close:target{
+    visibility: hidden;
+    opacity: 0;
+}
+
 /*---------------------------------------------------contact*/
+
 .contact {
     padding: 0;
     margin: 100px auto;
@@ -597,8 +668,11 @@ footer {
 /*--------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------responsive----------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------*/
+
 @media only screen and (min-width: 600px) {
-    /*---------------------------------------------------responsive 600 header*/
+
+/*---------------------------------------------------responsive 600 header*/
+
     .mobile-hero {
         display: none;
     }
@@ -606,15 +680,20 @@ footer {
         display: block;
         margin-top: 100px;
     }
+
     /*---------------------------------------------------responsive 600 about me*/
+
     .about-me-image {
         width: 40%;
     }
+
     /*---------------------------------------------------responsive 600 image slider*/
     #slider {
         margin: 50px auto;
     }
+
     /*---------------------------------------------------responsive 600 customer review*/
+
     .customer-review {
         display: flex;
         flex-direction: row;
@@ -633,13 +712,24 @@ footer {
     .customer-review-stars {
         font-size: 20px;
     }
-    /*---------------------------------------------------responsive 600 gallery*/
+
+/*---------------------------------------------------responsive 600 gallery*/
+
     .gallery {
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }
+    .modal-image img{
+    height: 75%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    }
 }
 @media only screen and (min-width: 1025px) {
-    /*---------------------------------------------------responsive 1025 navbar*/
+
+/*---------------------------------------------------responsive 1025 navbar*/
+
     .desktop-hero {
         margin-top: 0;
     }
@@ -667,6 +757,7 @@ footer {
         line-height: 100px;
     }
     /*---------------------------------------------------responsive 1025 about me*/
+
     .about-me-image {
         display: inline-block;
         width: 25%;
@@ -680,6 +771,7 @@ footer {
         margin: 0 0 0 10%;
     }
     /*---------------------------------------------------responsive 1025 image slider*/
+
     .slider-text h4 {
         font-size: 40px;
     }
@@ -687,6 +779,7 @@ footer {
         width: 60%;
     }
     /*---------------------------------------------------responsive 1025 customer review*/
+
     .customer-review-box {
         display: flex;
         flex-direction: row;
@@ -704,6 +797,7 @@ footer {
         width: 90%;
     }
     /*---------------------------------------------------responsive 1025 footer*/
+
     footer {
         height: 100px;
         flex-direction: row;
@@ -743,6 +837,7 @@ footer {
         width: 50%;
     }
     /*------------------------------------------responsive 1025 contact*/
+
     .contact {
         flex-direction: row;
         margin-bottom: 300px;
