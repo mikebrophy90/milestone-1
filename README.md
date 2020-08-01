@@ -25,6 +25,10 @@ i have used that is not my own will be credited at the bottom of this page.
 
     You can find wireframes in the assets folder.
 
+### DEPLOYMENT
+
+   I started out with creating a new repository with the Code Institute template, i gave the repository a name of milestone-1 and added a README.md file. I then added the necessary files to the repoitory eg: index.html, assets folder with images and css folder, style.css and the other html pages. throughout the build of the website i used git add and git commit as a backup. I didn't need to revert back to older coding but it is always good to have that option there if needed. When i was sure the website was nearly completed i used git push to push the repository to git hub, i then launched the site on git hub pages by selecting the master branch on the github pages section in options. I was then able to test the site across multiple browsers and make any changes accordingly, then repeat the process of git add, git commit and git push.
+
 ### FEATURES
 
  * TECHNOLOGY USED
@@ -41,18 +45,20 @@ i have used that is not my own will be credited at the bottom of this page.
 
    * FURTHER TESTING
 
-     I have published the site on github pages and tested it on chrome, Microsoft edge, Firefox, internet explorer and safari. I have also ran tests on the code using w3c validater and have ran all text through a spell checker.
+     I have published the site on github pages and tested it on chrome, Microsoft edge, Firefox, internet explorer and safari. I have also ran tests on the code using w3c validater and have ran all text through a spell checker. you can find evidance of this in the screenshots folder.
 
    * KNOW BUGS
 
-      The bugs that i have come across are, internet explorer displays my website as a mobile device, i think this is down to internet explorer not being updated. the only other bug i have come across is the image slider doesn't work on mobile devices. 
+      The bugs that i have come across are, internet explorer browser is not understanding new forms of coding and dosnt display the content on my website how it should be displayed, i think this is down to internet explorer not being developed any further.<br><br> I have added images to the package cards but for some reason it is only displaying the gradiant overlay and not the image when you open the page in a different browser. 
 
 ### CREDIT
 
  * CODE
  
    For the image slider i used this tutorial https://www.youtube.com/watch?v=hRyDECs2N8I <br>
-   For the gallery css grid i used part of this tutorial https://www.youtube.com/watch?v=XhNMwxXcKQM
+   For the gallery css grid i used part of this tutorial https://www.youtube.com/watch?v=XhNMwxXcKQM<br>
+   For the modals i have used some coding from this tutorial https://www.youtube.com/watch?v=8AUtM5lqUZM<br>
+   For the flip affect on the package cards i used some coding from this tutorial https://www.youtube.com/watch?v=OV8MVmtgmoY.
 
  * CONTENT
 
