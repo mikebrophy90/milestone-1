@@ -35,7 +35,7 @@ i have used that is not my own will be credited at the bottom of this page.
    
    * HTML
    * CSS
-   * Bootstrap
+   * Bootstrap (only for the buttons)
 
  * TESTING
 
