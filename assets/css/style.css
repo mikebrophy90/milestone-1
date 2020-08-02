@@ -3,14 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/*---------------------------------------------------colors
-
-#fafafa; white
-#576fa3; lt blue
-#151e31; dk blue
-#0d0f13; black
-#93969b; grey
-*/
+/*---------------------------------------------------colors*/
 
 body {
     background: rgba(0, 0, 0, 0.2)
@@ -69,20 +62,20 @@ footer {
     background: rgba(0, 0, 0, 0.5);
 }
 .sapphire .front-card {
-    background-image: linear-gradient(170deg, #151e31 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(/assets/images/weddingphoto20.jpg);
+    background-image: linear-gradient(170deg, #151e31 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(../images/weddingphoto20.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fafafa;
 }
 .ruby .front-card {
-    background-image: linear-gradient(170deg, #2b0012 25%, rgba(69, 28, 44, 0.7) 80%, rgba(69, 28, 44, 0.7) 10%), url(/assets/images/weddingphoto21.jpg);
+    background-image: linear-gradient(170deg, #2b0012 25%, rgba(69, 28, 44, 0.7) 80%, rgba(69, 28, 44, 0.7) 10%), url(../images/weddingphoto21.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fafafa;
     
 }
 .diamond .front-card {
-    background-image: linear-gradient(170deg, #3f8499 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(/assets/images/weddingphoto22.jpg);
+    background-image: linear-gradient(170deg, #3f8499 25%, rgba(85, 158, 180, 0.7) 80%, rgba(85, 158, 180, 0.7) 10%), url(../images/weddingphoto22.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fafafa;
@@ -356,7 +349,7 @@ label #cancel {
 
 /*---------------------------------------------------customer reviews*/
 
-.customer-review-box {
+.customer-review-container {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -523,7 +516,7 @@ footer {
 .package-add-info{
     width:75%;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 /*---------------------------------------------------------------------------gallery*/
@@ -780,7 +773,7 @@ footer {
     }
     /*---------------------------------------------------responsive 1025 customer review*/
 
-    .customer-review-box {
+    .customer-review-container {
         display: flex;
         flex-direction: row;
     }
