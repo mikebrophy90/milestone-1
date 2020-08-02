@@ -17,21 +17,21 @@ I have used that is not my own will be credited at the bottom of this page.
 * WIRE FRAMES
 
     * Mobile Index Page Wire Frame
-    ![mobile index page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/MOBILE-INDEX-FRAME.jpg )
+    ![mobile index page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/MOBILE-INDEX-FRAME.jpg?raw=true)
     * Desktop Index Page Wire Frame
-    ![desktop index page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/DESKTOP-INDEX-FRAME.jpg)
+    ![desktop index page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/DESKTOP-INDEX-FRAME.jpg?raw=true)
     * Mobile Gallery Page Wire Frame
-    ![mobile gallery page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/MOBILE-GALLERY-FRAME.jpg)
+    ![mobile gallery page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/MOBILE-GALLERY-FRAME.jpg?raw=true)
     * Desktop Gallery Page Wire Frame
-    ![desktop gallery page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/DESKTOP-GALLERY-FRAME.jpg )
+    ![desktop gallery page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/DESKTOP-GALLERY-FRAME.jpg?raw=true)
     * Mobile Packages Page Wire Frame
-    ![mobile packages page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/MOBILE-PACKAGE-FRAME.jpg)
+    ![mobile packages page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/MOBILE-PACKAGE-FRAME.jpg?raw=true)
     * Desktop Packages Page Wire Frame
-    ![desktop packages page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/DESKTOP-PACKAGES-FRAME.jpg)
+    ![desktop packages page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/DESKTOP-PACKAGES-FRAME.jpg?raw=true)
     * Mobile Contact Page Wire Frame
-    ![mobile contact page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/MOBILE-CONTACT-FRAME.jpg)
+    ![mobile contact page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/MOBILE-CONTACT-FRAME.jpg?raw=true)
     * Desktop Contact Page Wire Frame
-    ![desktop contact page wire frame](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/MS1-WIREFRAMES/DESKTOP-CONTACT-FRAME.jpg)
+    ![desktop contact page wire frame](https://github.com/mikebrophy90/milestone-1/blob/master/MS1-WIREFRAMES/DESKTOP-CONTACT-FRAME.jpg?raw=true)
 
 ### DEPLOYMENT
    I started out with creating a new repository with the Code Institute template, I gave the repository a name of milestone-1 and added a README.md file. I then added the necessary files to the repoitory eg: index.html, assets folder with images and css folder, style.css and the other html pages. throughout the build of the website I used `git add .` to add it to my local git, and `git commit -m "message"` to commit it to my local git. I used `git push` to push the repository to the remote git hub, I then launched the site on git hub pages by selecting the master branch on the github pages section in options. I was then able to test the site across multiple browsers and make any changes accordingly, then repeat the process of git add, git commit and git push.
@@ -48,27 +48,27 @@ I have used that is not my own will be credited at the bottom of this page.
    * FURTHER TESTING
      I have published the site on github pages and tested it on chrome, Microsoft edge, Firefox, internet explorer and safari. I have also ran tests on the code using w3c validater and have ran all text through a spell checker.
         * Git Hub Pages
-        ![git hub pages](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/git-hub-pages.png)
+        ![git hub pages](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/git-hub-pages.png?raw=true)
         * Chrome Test
-        ![chrome test](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/chrome-test.png)
+        ![chrome test](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/chrome-test.png?raw=true)
         * Firefox Test
-        ![firefox test](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/firefox-test.png)
+        ![firefox test](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/firefox-test.png?raw=true)
         * Internet Explorer Test
-        ![internet explorer test](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/internetexplorer-test.png)
+        ![internet explorer test](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/internetexplorer-test.png?raw=true)
         * Microsoft Edge Test
-        ![microsoft edge test](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/microsoft-edge-test.png)
+        ![microsoft edge test](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/microsoft-edge-test.png?raw=true)
         * Index W3C
-        ![index w3c](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/index-w3c.png)
+        ![index w3c](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/index-w3c.png?raw=true)
         * Gallery W3C
-        ![gallery w3c](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/gallery-w3c.png)
+        ![gallery w3c](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/gallery-w3c.png?raw=true)
         * Packages W3C
-        ![packages w3c](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/packages-w3c.png)
+        ![packages w3c](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/packages-w3c.png?raw=true)
         *Contact W3C
-        ![contact w3c](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/contact-w3c.png)
+        ![contact w3c](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/contact-w3c.png?raw=true)
         * CSS W3C
-        ![css w3c](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/css-w3c.png)
+        ![css w3c](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/css-w3c.png?raw=true)
         *Spell Check
-        ![spell check](https://ed852301-085f-4b67-bb1f-a21b9ce4fb8e.ws-eu01.gitpod.io/mini-browser/workspace/milestone-1/screenshots/spellchecker.png)
+        ![spell check](https://github.com/mikebrophy90/milestone-1/blob/master/screenshots/spellchecker.png?raw=true)
 
    * KNOW BUGS
       The bugs that I have come across are, internet explorer browser is not understanding new forms of coding and dosnt display the content on my website how it should be displayed, i think this is down to internet explorer not being developed any further.
